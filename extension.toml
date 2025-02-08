@@ -1,10 +1,10 @@
-id = "postgres-context-server"
-name = "Postgres Context Server"
-description = "Model Context Server for PostgreSQL"
+id = "SQLite-context-server"
+name = "SQLite Context Server"
+description = "Model Context Server for SQLite"
 version = "0.0.1"
 schema_version = 1
 authors = ["Djo Wea <djo@space-shift.com>"]
 repository = "https://github.com/dj0le/sqlite-context-server"
 
-[context_servers.postgres-context-server]
-name = "Postgres Context Server"
+[context_servers.sqlite-context-server]
+name = "SQLite Context Server"
