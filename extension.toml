@@ -3,8 +3,8 @@ name = "Postgres Context Server"
 description = "Model Context Server for PostgreSQL"
 version = "0.0.1"
 schema_version = 1
-authors = ["Max Brunsfeld <max@zed.dev>"]
-repository = "https://github.com/zed-extensions/postgres-context-server"
+authors = ["Djo Wea <djo@space-shift.com>"]
+repository = "https://github.com/dj0le/sqlite-context-server"
 
 [context_servers.postgres-context-server]
 name = "Postgres Context Server"
