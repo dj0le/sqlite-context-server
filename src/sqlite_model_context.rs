@@ -3,9 +3,9 @@ use std::env;
 use zed::settings::ContextServerSettings;
 use zed_extension_api::{self as zed, serde_json, Command, ContextServerId, Project, Result};
 
-const PACKAGE_NAME: &str = "@zeddotdev/sqlite-context-server";
+const PACKAGE_NAME: &str = "@djowea/sqlite-context-server"; // Update this
 const PACKAGE_VERSION: &str = "0.1.2";
-const SERVER_PATH: &str = "node_modules/@zeddotdev/sqlite-context-server/index.mjs";
+const SERVER_PATH: &str = "node_modules/@djowea/sqlite-context-server/index.mjs";
 
 struct SqliteModelContextExtension;
 
